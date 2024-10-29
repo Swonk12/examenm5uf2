@@ -1,4 +1,11 @@
+# Dev1
 git pull
 git add .
 git commit -m "ficheros movidos"
+git push
+
+# Dev2
+git pull
+git add .
+git commit -m "rutas ajustadas"
 git push
