@@ -4,3 +4,10 @@ git checkout mywork
 git add .
 git commit -m "autor.html"
 git push --set-upstream origin mywork
+
+# Dev 1
+git pull
+git checkout mywork
+git add .
+git commit -m "examen v6"
+git push
