@@ -25,3 +25,13 @@ git checkout p2
 git add .
 git commit -m "Nombre Cambiado"
 git push --set-upstream origin p2
+
+# Dev1
+git add .
+git commit -m "Cambio de Nombre del Home"
+git push
+
+# Dev2
+git add .
+git commit -m "Cambio Eslogan"
+git push
