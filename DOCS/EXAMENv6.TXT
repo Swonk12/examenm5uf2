@@ -3,4 +3,4 @@ git branch mywork
 git checkout mywork
 git add .
 git commit -m "autor.html"
-git push
+git push --set-upstream origin mywork
