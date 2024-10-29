@@ -9,3 +9,41 @@ git pull
 git add .
 git commit -m "rutas ajustadas"
 git push
+
+# Dev1
+git pull
+git branch p1
+git checkout p1
+git add .
+git commit -m "Titulo de la Web Cambiado"
+git push --set-upstream origin p1
+
+# Dev2
+git pull
+git branch p2
+git checkout p2
+git add .
+git commit -m "Nombre Cambiado"
+git push --set-upstream origin p2
+
+# Dev1
+git add .
+git commit -m "Cambio de Nombre del Home"
+git push
+
+# Dev2
+git add .
+git commit -m "Cambio Eslogan"
+git push
+
+# Dev1
+git add .
+git commit -m "examen v4"
+git push
+git checkout master
+git merge p1
+
+# Dev2
+git checkout master
+git pull 
+git merge p2
