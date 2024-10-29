@@ -1,0 +1,5 @@
+git clone https://github.com/Swonk12/examenm5uf2
+git add .
+git status
+git commit -m "examen v2"
+git push
