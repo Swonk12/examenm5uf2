@@ -35,3 +35,15 @@ git push
 git add .
 git commit -m "Cambio Eslogan"
 git push
+
+# Dev1
+git add .
+git commit -m "examen v4"
+git push
+git checkout main
+git merge p1
+
+# Dev2
+git checkout main
+git pull 
+git merge p2
