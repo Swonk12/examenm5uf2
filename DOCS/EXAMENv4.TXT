@@ -16,7 +16,7 @@ git branch p1
 git checkout p1
 git add .
 git commit -m "Titulo de la Web Cambiado"
-git push
+git push --set-upstream origin p1
 
 # Dev2
 git pull
@@ -24,4 +24,4 @@ git branch p2
 git checkout p2
 git add .
 git commit -m "Nombre Cambiado"
-git push
+git push --set-upstream origin p2
