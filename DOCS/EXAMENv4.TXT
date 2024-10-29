@@ -40,10 +40,10 @@ git push
 git add .
 git commit -m "examen v4"
 git push
-git checkout main
+git checkout master
 git merge p1
 
 # Dev2
-git checkout main
+git checkout master
 git pull 
 git merge p2
